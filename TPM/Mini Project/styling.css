@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: "inter";
+  background-color: #e3e3e3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  background-color: white;
+  width: 333px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  position: relative;
+}
+
+.statusBar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.bar1 {
+  background-color: black;
+  height: 7px;
+  width: 100px;
+  margin: 5px;
+  border-radius: 5px;
+  transition: width 0.5s ease-in-out;
+}
+
+.bar2 {
+  background-color: #e3e3e3;
+  height: 7px;
+  width: 100px;
+  margin: 5px;
+  border-radius: 5px;
+  transition: width 0.5s ease-in-out;
+}
+
+.atasnya {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.astasnya .title {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.atasnya .close-icon {
+  max-width: 14px;
+  max-height: 14px;
+}
+
+.hurufPersen {
+  font-size: 64px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.deskripsi .paragraph {
+  font-size: 14px;
+  color: #615d5d;
+}
+.star .stars {
+  margin-top: 25px;
+  margin-bottom: -25px;
+  margin-left: -20px;
+  margin-right: -20px;
+  max-width: 373px;
+  max-height: 191px;
+  justify-content: center;
+  align-items: center;
+}
